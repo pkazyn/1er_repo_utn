@@ -1,4 +1,15 @@
+Comandos git:
+    
+    git status: 
+        status del repositorio
+    
 Pasos para crear un repositorio:
 
     git init
-        Crea un repositorio
+        Crea un repositorio de git en el proyecto donde se ejecute
+    
+    git add .
+        Anade los archivos sin seguimiento al repositorio de git 
+
+    git commit -m 'mensaje descriptivo'
+        Versiona los cambios anadidos 
