@@ -13,3 +13,15 @@ Pasos para crear un repositorio:
 
     git commit -m 'mensaje descriptivo'
         Versiona los cambios anadidos 
+    
+    git branch  -M main
+            Renombra la rama principal
+    
+    git remote add origin https://github.com/pkazyn/1er_repo_utn.git 
+        Anade una direccion remota  (Direccion de repositorio remoto) a nuestro repositorio local 
+
+    git remote -v 
+        Verifica la direccion remota a la que esta conectado nuestro repositorio local 
+    
+    git remote set-url origin <direccion del repositorio en la nube> 
+        Modifica la direccion remota de nuestro repositorio en la nube
