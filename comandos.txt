@@ -25,3 +25,8 @@ Pasos para crear un repositorio:
     
     git remote set-url origin <direccion del repositorio en la nube> 
         Modifica la direccion remota de nuestro repositorio en la nube
+    
+    Para actualizar  un repo y subir otro commit 
+        git add .
+        git commit -m "mensaje"
+        git push 
