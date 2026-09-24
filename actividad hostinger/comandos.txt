@@ -1,0 +1,32 @@
+Comandos git:
+    
+    git status: 
+        status del repositorio
+    
+Pasos para crear un repositorio:
+
+    git init
+        Crea un repositorio de git en el proyecto donde se ejecute
+    
+    git add .
+        Anade los archivos sin seguimiento al repositorio de git 
+
+    git commit -m 'mensaje descriptivo'
+        Versiona los cambios anadidos 
+    
+    git branch  -M main
+            Renombra la rama principal
+    
+    git remote add origin https://github.com/pkazyn/1er_repo_utn.git 
+        Anade una direccion remota  (Direccion de repositorio remoto) a nuestro repositorio local 
+
+    git remote -v 
+        Verifica la direccion remota a la que esta conectado nuestro repositorio local 
+    
+    git remote set-url origin <direccion del repositorio en la nube> 
+        Modifica la direccion remota de nuestro repositorio en la nube
+    
+    Para actualizar  un repo y subir otro commit 
+        git add .
+        git commit -m "mensaje"
+        git push 
